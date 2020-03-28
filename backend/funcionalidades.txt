@@ -1,0 +1,15 @@
+Login de ong;
+Logout de ong;
+Cadastro de ong;
+Cadastrar novos casos;
+Deletar casos;
+Listar casos específicos de uma ong;
+Listar todos os casos;
+Entrar em contato com a ong;
+
+
+CRIAR MIGRATION: npx knex migrate:make {NOME DA MIGRATION}
+CRIAR TABELA: npx migrate:latest
+
+FUNÇÕES KNEX: npx knex
+DESFAZER ULTIMA MIGRATION: npx knex migrate:rollback
